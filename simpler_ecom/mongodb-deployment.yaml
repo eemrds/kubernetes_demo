@@ -35,4 +35,4 @@ spec:
       volumes:
       - name: mongo-data
         persistentVolumeClaim:
-          claimName: mongo-pvc
+          claimName: efs-claim
